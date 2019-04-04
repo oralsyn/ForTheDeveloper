@@ -1,5 +1,5 @@
 body{
-  font-size: 20px;
+  
 }
 a {
   color: #007bff;
@@ -10,9 +10,15 @@ h2 {
   margin-top: 25px;
   margin-bottom: 3px;
   color: rebeccapurple;
+  font-size: 25px;
+  
 }
  ul{
    margin-top: 0px;
    margin-bottom: 0px;
    line-height: 1.5;
+   font-size: 20px;
  }
+.avtor {
+  font-style: italic;
+}
