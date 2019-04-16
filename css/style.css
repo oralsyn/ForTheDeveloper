@@ -22,3 +22,12 @@ h2 {
 .avtor {
   font-style: italic;
 }
+dl{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.test{
+  font-size: 30px; 
+}
