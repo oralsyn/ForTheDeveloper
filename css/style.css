@@ -1,5 +1,5 @@
 *, body, html {    
-  margin: 10px;
+  margin: 0px;
 
 }
 
@@ -7,12 +7,16 @@ body {
   background-color: rgb(243, 242, 240);
 }
 header {
-  border: 2px solid #007bff;
+  
+  border: 1px solid #007bff;
   border-radius: 10px;
   background-color:  #F3FAFF;
   text-align: center;
-  width: 98%;
+  width: auto;
   height: auto; 
+}
+main {
+  margin: 25px;
 }
 a {
   color: #007bff;
@@ -45,8 +49,12 @@ dl{
   font-size: 30px;  
 }
 footer{
-  border: 2px solid  #007bff;
+  border: 1px solid  #007bff;
   color: black;
   background-color:  #F3FAFF;
+  padding: 10px;  
+  
+  margin-bottom: 15px;
   border-radius: 10px;
+
 }
