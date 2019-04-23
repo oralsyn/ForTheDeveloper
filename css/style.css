@@ -1,5 +1,7 @@
 *, body, html {    
   margin: 0px;
+  box-sizing: border-box;
+  
 
 }
 
@@ -14,10 +16,34 @@ header {
   text-align: center;
   width: auto;
   height: auto; 
+  margin: 5px;
 }
 main {
   margin: 25px;
 }
+
+main div{
+  border: 2px solid rgb(4, 194, 4);
+ 
+}
+.container { 
+  width: 100%;
+  border: 2px solid red;
+  margin-bottom: 30px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  
+ 
+}
+.col {
+  position: relative;
+  max-width: 33.33%;
+  position: relative;
+  padding-left: 15px; 
+}
+
 a {
   color: #007bff;
   text-decoration: none;
