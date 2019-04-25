@@ -99,6 +99,11 @@ footer{
  
 }
 @media (max-width: 970px){
+  .row {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
   .col {
     border: 2px solid rgb(228, 14, 199);
     max-width: 800px;
