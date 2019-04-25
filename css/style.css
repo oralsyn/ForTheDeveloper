@@ -1,12 +1,13 @@
 *, body, html {    
   margin: 0px;
   box-sizing: border-box;
-  
+ 
 
 }
 
 body {
   background-color: rgb(243, 242, 240);
+  
 }
 header {
   
@@ -17,31 +18,35 @@ header {
   width: auto;
   height: auto; 
   margin: 5px;
+
 }
 main {
   margin: 25px;
+  min-width: 200px; 
 }
 
-main div{
-  border: 2px solid rgb(4, 194, 4);
- 
-}
-.container { 
-  width: 100%;
-  border: 2px solid red;
+.container {   
   margin-bottom: 30px;
+  
+  border: 2px solid rgb(4, 194, 4);
 }
 .row {
-  display: flex;
-  flex-wrap: wrap;
   
- 
+  margin: 10px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  flex-wrap: wrap;  
 }
 .col {
-  position: relative;
-  max-width: 33.33%;
-  position: relative;
-  padding-left: 15px; 
+  border: 2px solid rgb(4, 194, 4);
+  max-width: 420px;
+  
+  padding: 15px;
+  margin: 10px;
+  background: #F3FAFF;
+
 }
 
 a {
@@ -50,7 +55,7 @@ a {
   background-color: transparent;  
 }
 h2 {
-  margin-top: 25px;
+  
   margin-bottom: 3px;
   color: rebeccapurple;
   font-size: 25px;
@@ -83,4 +88,20 @@ footer{
   margin-bottom: 15px;
   border-radius: 10px;
 
+}
+@media (max-width: 400px){
+  header {
+    font-size: 20px;
+  }
+  ul {
+    font-size: 14px;
+  }
+ 
+}
+@media (max-width: 970px){
+  .col {
+    border: 2px solid rgb(228, 14, 199);
+    max-width: 800px;
+    color: red;
+  }
 }
