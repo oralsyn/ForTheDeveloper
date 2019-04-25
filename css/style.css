@@ -1,24 +1,21 @@
 *, body, html {    
   margin: 0px;
   box-sizing: border-box;
- 
-
 }
 
 body {
-  background-color: rgb(243, 242, 240);
-  
+  background-color: #EDEEF0;   
 }
 header {
-  
-  border: 1px solid #007bff;
-  border-radius: 10px;
-  background-color:  #F3FAFF;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #007bff; 
+  background-color:  #4A76A8;
+  align-items: center;
   width: auto;
-  height: auto; 
-  margin: 5px;
-
+  height: 200px; 
+  
+  color: #F3FAFF;
 }
 main {
   margin: 25px;
@@ -26,26 +23,26 @@ main {
 }
 
 .container {   
-  margin-bottom: 30px;
-  
-  border: 2px solid rgb(4, 194, 4);
+  margin-bottom: 30px;  
+  /* border: 2px solid rgb(4, 194, 4); */
 }
 .row {
   
   margin: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: center; 
   flex-wrap: wrap;  
 }
 .col {
-  border: 2px solid rgb(4, 194, 4);
-  max-width: 420px;
-  
+  border: 2px solid #4A76A8;
+  max-width: 370px;
+  border-radius: 15px;
   padding: 15px;
   margin: 10px;
-  background: #F3FAFF;
+  background: #fff;
+  /* background: #F3FAFF; */
 
 }
 
@@ -55,17 +52,16 @@ a {
   background-color: transparent;  
 }
 h2 {
-  
-  margin-bottom: 3px;
-  color: rebeccapurple;
-  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: rgb(22, 18, 26);
+  font-size: 20px;
   
 }
- ul{
-   margin-top: 0px;
-   margin-bottom: 0px;
-   line-height: 1.5;
-   font-size: 20px;
+ ul, ol{
+  padding-left:20px;
+   line-height: 1.4;
+   font-size: 18px;
  }
 .avtor {
   font-style: italic;
@@ -79,14 +75,18 @@ dl{
 .test{
   font-size: 30px;  
 }
+/* -------------------- footer -------------------- */
 footer{
+  display: flex;
+  align-items: center;
   border: 1px solid  #007bff;
   color: black;
-  background-color:  #F3FAFF;
+  background-color:  #C1C1C1;
   padding: 10px;  
+  width: auto;
+  height: 100px; 
   
-  margin-bottom: 15px;
-  border-radius: 10px;
+  
 
 }
 @media (max-width: 400px){
@@ -99,9 +99,14 @@ footer{
  
 }
 @media (max-width: 970px){
+  .row {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
   .col {
-    border: 2px solid rgb(228, 14, 199);
+    /* border: 2px solid rgb(228, 14, 199); */
     max-width: 800px;
-    color: red;
+   
   }
 }
