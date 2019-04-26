@@ -49,16 +49,36 @@ main {
 a {
   color: #007bff;
   text-decoration: none;
-  background-color: transparent;  
+  background-color: transparent;    
 }
+a:hover {
+  /* background-color: rgb(105, 109, 121);
+  border-radius: 10px;
+  color: #F3FAFF;
+  padding: 3px; */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*
+a:link {
+  color: #0000d0;  Цвет ссылок 
+ }
+  
+ a:visited {
+  color: #900060; Цвет посещенных ссылок 
+ }
+*/
+
 h2 {
   margin-top: 30px;
   margin-bottom: 10px;
   color: rgb(22, 18, 26);
   font-size: 20px;
+  /* font-weight: 500; */
   
 }
- ul, ol{
+ ul, ol {
   padding-left:20px;
    line-height: 1.4;
    font-size: 18px;
@@ -66,15 +86,13 @@ h2 {
 .avtor {
   font-style: italic;
 }
-dl{
+/* dl{
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 1.5;
   font-size: 20px;
-}
-.test{
-  font-size: 30px;  
-}
+} */
+
 /* -------------------- footer -------------------- */
 footer{
   display: flex;
