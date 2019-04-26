@@ -4,6 +4,7 @@
 }
 
 body {
+  
   background-color: #EDEEF0;   
 }
 header {
@@ -14,6 +15,8 @@ header {
   align-items: center;
   width: auto;
   height: 200px; 
+  font-family: 'Vollkorn', serif;
+  /* font-family: 'Rubik', sans-serif; */
   
   color: #F3FAFF;
 }
@@ -75,17 +78,24 @@ h2 {
   margin-bottom: 10px;
   color: rgb(22, 18, 26);
   font-size: 20px;
-  /* font-weight: 500; */
+  font-family: 'Vollkorn', serif;
+  /* font-family: 'Rubik', sans-serif; */
+  font-weight: 900;
   
 }
  ul, ol {
   padding-left:20px;
-   line-height: 1.4;
-   font-size: 18px;
- }
-.avtor {
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: 'Vollkorn', serif;
+  /* font-family: 'Rubik', sans-serif; */
+
+ } 
+
+/* .avtor {
   font-style: italic;
-}
+} */
+
 /* dl{
   margin-top: 0px;
   margin-bottom: 0px;
