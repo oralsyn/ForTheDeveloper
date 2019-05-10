@@ -117,16 +117,28 @@ footer{
   
 
 }
-@media (max-width: 400px){
+@media (max-width: 500px){
   header {
+    /* display: flex;    
+    justify-content: center;
+    align-items: center;  */
     font-size: 20px;
+    padding-left: 15px;
+    
+
+       
   }
   ul {
     font-size: 14px;
-  }
- 
+  } 
 }
-@media (max-width: 970px){
+
+@media (max-width: 867px){
+  header {
+    
+    padding-left: 15px;
+       
+  }
   .row {
     display: flex;
     flex-direction: column;
@@ -134,7 +146,6 @@ footer{
   }
   .col {
     /* border: 2px solid rgb(228, 14, 199); */
-    max-width: 800px;
-   
+    max-width: 700px;   
   }
 }
