@@ -113,32 +113,23 @@ footer{
   padding: 10px;  
   width: auto;
   height: 100px; 
-  
-  
-
 }
-@media (max-width: 500px){
+@media (max-width: 700px){
   header {
-    /* display: flex;    
-    justify-content: center;
-    align-items: center;  */
-    font-size: 20px;
+    align-items: center;
+    text-align: center; 
     padding-left: 15px;
+    padding-right: 15px;
+    color: yellow;
     
-
-       
   }
-  ul {
+  ol {
     font-size: 14px;
   } 
 }
 
-@media (max-width: 867px){
-  header {
-    
-    padding-left: 15px;
-       
-  }
+@media (max-width: 850px){
+ 
   .row {
     display: flex;
     flex-direction: column;
