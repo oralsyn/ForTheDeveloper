@@ -21,29 +21,29 @@ header {
   color: #F3FAFF;
 }
 main {
-  margin: 25px;
+  margin: 5px;
   min-width: 200px; 
+  /* border: 2px solid red; */
 }
 
-.container {   
-  margin-bottom: 30px;  
-  /* border: 2px solid rgb(4, 194, 4); */
-}
-.row {
+/* .container {   
   
-  margin: 10px;
+   border: 2px solid rgb(4, 194, 4);
+} */
+.row {  
+ 
   /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: center; 
   flex-wrap: wrap;  
 }
-.col {
+.col {  
   border: 2px solid #4A76A8;
-  max-width: 370px;
+  max-width: 400px;
   border-radius: 15px;
   padding: 15px;
-  margin: 10px;
+  margin: 5px;
   background: #fff;
   /* background: #F3FAFF; */
 
