@@ -3,8 +3,7 @@
   box-sizing: border-box;
 }
 
-body {
-  
+body {  
   background-color: #EDEEF0;   
 }
 header {
@@ -81,6 +80,7 @@ h2 {
   font-family: 'Vollkorn', serif;
   /* font-family: 'Rubik', sans-serif; */
   font-weight: 900;
+ 
   
 }
  ul, ol {
