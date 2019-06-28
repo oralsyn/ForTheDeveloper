@@ -4,6 +4,7 @@
 }
 
 body {  
+ 
   background-color: #EDEEF0;   
 }
 header {
@@ -126,10 +127,10 @@ footer{
   header {
     align-items: center;
     text-align: center; 
-    padding-left: 15px;
-    padding-right: 15px;
-    color: yellow;
-    
+    width: auto;
+    height: 140px; 
+    /*color: yellow;
+    */
   }
   ol {
     font-size: 16px;
@@ -140,7 +141,7 @@ footer{
  
   .row {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     height: 100%;
   }
   .col {
