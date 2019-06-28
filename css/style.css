@@ -39,13 +39,13 @@ main {
 }
 .col {  
   border: 2px solid #4A76A8;
+  width: 100%;
   max-width: 400px;
   border-radius: 15px;
   padding: 15px;
   margin: 5px;
   background: #fff;
   /* background: #F3FAFF; */
-
 }
 
 a {
@@ -91,7 +91,15 @@ h2 {
   /* font-family: 'Rubik', sans-serif; */
 
  } 
-
+.detal{
+  margin-top: 10px;
+  color: rgb(22, 18, 26);
+  font-size: 20px;
+  font-family: 'Vollkorn', serif;
+ 
+  font-weight: 900;
+  outline-style: none;
+}
 /* .avtor {
   font-style: italic;
 } */
